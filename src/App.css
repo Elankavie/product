@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+.left{
+  margin-left: 300px;
+  position: relative;
+  top: 50px;
+}
+.right{
+  background-color:palegreen;
+}
+.name{
+  background-color:rosybrown;
+  height: 140px;
+  width: 1500px;
+  text-size-adjust: 3px;
+  text-align: center;
+  text-size-adjust: 100px;
+}
+
+ul.no-bullets{
+  list-style-type: none;}
