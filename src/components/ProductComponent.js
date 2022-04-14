@@ -32,11 +32,11 @@ class ProductComponent extends React.Component{
                             this.state.users.map(
                                 user =>
                                 <ul key = {user.productId}>
-                                    <img className = "left" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsNKJWL6IxBm8w5XQwAAakxHH8zsCH-tx05g&usqp=CAU" style={{width: "300px"}}/>
+                                    <img className = "left" src= {user.color} style={{width: "300px"}}/>
                                     <li>productid: {user.productId}</li>
                                     
                                     <li>product price {user.price}</li> 
-                                    <li>product colour {user.color}</li>
+                                    
                                     <li>dimensions {user.dimension}</li>
                                     <li> specifications{user.specification}</li>
                                     <li>manufacturer {user.manufacturer}</li>
